@@ -1,0 +1,5 @@
+working dir
+C:\2016-kunshanproject
+
+Git BASH here
+MARK@m1 MINGW64 /c/2016-kunshanproject
