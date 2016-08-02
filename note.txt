@@ -3,3 +3,41 @@ C:\2016-kunshanproject
 
 Git BASH here
 MARK@m1 MINGW64 /c/2016-kunshanproject
+
+virtualenv env
+source env/Scripts/activate
+
+
+(env) C:\2016-kunshanproject>django-admin startproject kunshan
+
+(env) C:\2016-kunshanproject>tree kunshan /F
+
+C:\2016-KUNSHANPROJECT\KUNSHAN
+│  manage.py
+│
+└─kunshan
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
+
+
+
+
+        (env) C:\2016-kunshanproject\kunshan>python manage.py runserver
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 13 unapplied migration(s). Your project may not work properly until you
+         apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        August 02, 2016 - 08:49:21
+        Django version 1.10, using settings 'kunshan.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+        [02/Aug/2016 08:50:00] "GET / HTTP/1.1" 200 1767
+        Not Found: /favicon.ico
+        [02/Aug/2016 08:50:01] "GET /favicon.ico HTTP/1.1" 404 1937
+        Not Found: /favicon.ico
+        [02/Aug/2016 08:50:01] "GET /favicon.ico HTTP/1.1" 404 1937
